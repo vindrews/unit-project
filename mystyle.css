@@ -10,6 +10,21 @@ h2{
 	padding: 10px;
 	background: #ff9a00;
 }
+
+h5{
+	text-align: center;
+	font-family: "Courier New";
+	font-size: 5px;
+	border: 2px solid black;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+	padding: 10px;
+	background: #ff9a00;
+}
+
 p{
 	text-align: left;
 	border: 1px solid black;
@@ -17,6 +32,10 @@ p{
 	margin: 20px;
 	background: #00a2ff;
 	padding: 10px;
+}
+
+.imgborder{
+	width: 50%;
 }
 
 .imgcredits{
