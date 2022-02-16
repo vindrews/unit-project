@@ -49,6 +49,7 @@ p{
 	width: 25%;
 }
 
+
 img{
 	border: 2px solid black;
 	display: block;
@@ -57,3 +58,30 @@ img{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+#gladospic{
+	width: 75%;
+	height: 75%;
+}
+
+
+	/*page two stuff */
+	
+.card-deck{
+	width: 400px;
+}
+	
+	
+.funfact{
+	background: #ff9a00;
+}
+
+h4{
+	text-align: center;
+}
+
+.btn-primary{
+	margin-left: auto;
+	margin-right: auto;
+}
+
