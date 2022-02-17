@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Portal: A Love Story</title>
+	<title>An Open Love Letter to Portal</title>
 	<link rel="stylesheet" href="mystyle.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="myscript.js"></script>
@@ -36,7 +36,7 @@
             <a class="nav-link" href="index.html">What is Portal?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="page1.html">GLaDOS's Psyche</a>
+            <a class="nav-link" href="page1.html">GLaDOS</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="page2.html">Valve Fun Facts!</a>
@@ -47,62 +47,104 @@
 	
 	<!--cards-->
 	<div class="card-deck">
-     <img class="card-img-top" src="hl3.jpg" alt="An edited logo for Half-Life 3">
-     <div class="card-body">
-      <h4 class="card-title">Half-Life Fact!</h4>
-       <p class="funfact card-text"><a href="https://www.deviantart.com/stavrapid-official/art/Half-Life-3-logo-with-logotypes-466077248" target="blank">[Image from Stavrapid-Official on DeviantArt]</a></p>
-      <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Show Fact!</a>
+        <div class="card">
+         <img class="card-img-top" src="hl3.jpg" alt="An edited logo for Half-Life 3">
+         <div class="card-body">
+          <h4 class="card-title">Half-Life Fact!</h4>
+           <p class="funfact card-text"><a href="https://www.deviantart.com/stavrapid-official/art/Half-Life-3-logo-with-logotypes-466077248" target="_blank">[Image from Stavrapid-Official on DeviantArt]</a></p>
+          <a class="btn btn-primary" id="hlbutton" data-toggle="modal" data-target="#hlmodal">Show Fact!</a>
+         </div>
+        </div>
+        
+        <div class="card">
+         <img class="card-img-top" src="atlasnpbody.jpg" alt="A tall slim robot and a short round robot standing next to each other.">
+         <div class="card-body">
+          <h4 class="card-title">Portal Fact!</h4>
+           <p class="funfact card-text"><a href="https://tvtropes.org/pmwiki/pmwiki.php/Characters/Portal" target="_blank">[Image from TV Tropes]</a></p>
+          <a class="btn btn-primary" id="portalbutton" data-toggle="modal" data-target="#portalmodal">Show Fact!</a>
+         </div>
+         </div>
+     
+        <div class="card">
+         <img class="card-img-top" src="tf2.jpg" alt="Cover art for TF2, showing all the mercs lined up.">
+         <div class="card-body">
+          <h4 class="card-title">Team Fortress 2 Fact!</h4>
+           <p class="funfact card-text"><a href="https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/TeamFortress2" target="_">[Image from TV Tropes]</a></p>
+          <a class="btn btn-primary" id="tf2button" data-toggle="modal" data-target="#tf2modal">Show Fact!</a>
+         </div>
+         </div>
+     
     </div>
-	
-     <img class="card-img-top" src="atlasnpbody.jpg" alt="A tall slim robot and a short round robot standing next to each other.">
-     <div class="card-body">
-      <h4 class="card-title">Portal Fact!</h4>
-       <p class="funfact card-text"><a href="https://tvtropes.org/pmwiki/pmwiki.php/Characters/Portal" target="blank">[Image from TV Tropes]</a></p>
-      <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Show Fact!</a>
-    </div>
-  </div>
 	
 	<!--modal stuff-->
 	<!--card 1 modal-->
-		<div class="modal" id="myModal">
-		 <div class="modal-dialog">
-		  <div class="modal-content">
+	<div class="modal" id="hlmodal">
+		<div class="modal-dialog">
+		    <div class="modal-content">
+            
+            <!--modal head-->
+             <div class="modal-header">
+                <h4 class="modal-title">Half-Life's Sequels</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
 
-		  
-		 <div class="modal-header">
-			<h4 class="modal-title">Half-Life's Sequels</h4>
-			<button type="button" class="close" data-dismiss="modal">&times;</button>
-		  </div>
+              <!-- modal body -->
+              <div class="modal-body">
+                Half-Life is a series with 15 games in it, and yet there are only two that follow proper linear progression. Half-Life 1 and Half-Life 2 are about as linear as one can get with Valve games. After the release of Half-Life 2, Valve released Half-Life 2: Episode 1, which was a continuation of the story of Half-Life two. They then released a bunch of other games with titles like this, some of them following the progression of the story and some of them just being little side quests. A running joke in the Valve fandom is that the company can never make a third game. Half-Life, Portal, and Team Fortress seem to be stuck with only a sequel for the forseeable future.
+              </div>
 
-		  <!-- modal body -->
-		  <div class="modal-body">
-			Half-Life is a series with 15 games in it, and yet there are only two that follow proper linear progression. Half-Life 1 and Half-Life 2 are about as linear as one can get with Valve games. After the release of Half-Life 2, Valve released Half-Life 2: Episode 1, which was a continuation of the story of Half-Life two. They then released a bunch of other games with titles like this, some of them following the progression of the story and some of them just being little side quests. A running joke in the Valve fandom is that the company can never make a third game. Half-Life, Portal, and Team Fortress seem to be stuck with only a sequel for the forseeable future.
-		  </div>
-
-		  <!-- modal footer -->
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-		  </div>
-		  
+              <!-- modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+		    </div>
+        </div>
+    </div>
 	<!--card 2 modal-->
-		<div class="modal" id="myModal">
-		 <div class="modal-dialog">
-		  <div class="modal-content">
+	<div class="modal" id="portalmodal">
+		<div class="modal-dialog">
+            <div class="modal-content">
 
 		  
-		 <div class="modal-header">
-			<h4 class="modal-title">Half-Life's Sequels</h4>
-			<button type="button" class="close" data-dismiss="modal">&times;</button>
-		  </div>
+             <div class="modal-header">
+                <h4 class="modal-title">Portal Co-Op</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
 
-		  <!-- modal body -->
-		  <div class="modal-body">
-			Half-Life is a series with 15 games in it, and yet there are only two that follow proper linear progression. Half-Life 1 and Half-Life 2 are about as linear as one can get with Valve games. After the release of Half-Life 2, Valve released Half-Life 2: Episode 1, which was a continuation of the story of Half-Life two. They then released a bunch of other games with titles like this, some of them following the progression of the story and some of them just being little side quests. A running joke in the Valve fandom is that the company can never make a third game. Half-Life, Portal, and Team Fortress seem to be stuck with only a sequel for the forseeable future.
-		  </div>
+              <!-- modal body -->
+              <div class="modal-body">
+              When originally creating Portal 2 Co-Op, the developers were going to have a very long and gruesome death animation each time a player died. More specifically, it was of the robot they played as being slowly crushed by a garbage compactor. As playtesting went on, they realized that it was making players be way more cautious, take less risks, and overall have less room to be a bit stupid because they didn't want to sit through the animation every time they died. The developers didn't want this, the point of the game was to try out solutions to puzzles even if theyre stupid! Half the fun is messing up and getting to try again. So, the devs chose to make the death animation much quicker and sillier. Now, the robots spark and flail around a bit when they get dropped in water, then immediately respawn. This immediately fixed the problem. Players were instantly more likely to try out dangerous solutions to their problems because they were no longer being punished with long animations when they did. Now, dying in Co-Op is a minor inconvenience at worst, and an absolutely hilarious thing to do to your friends at best.
+              </div>
 
-		  <!-- modal footer -->
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-		  </div>
+              <!-- modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--card 3 modal-->
+	<div class="modal" id="tf2modal">
+		<div class="modal-dialog">
+            <div class="modal-content">
+
+		  
+             <div class="modal-header">
+                <h4 class="modal-title">Portal Co-Op</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- modal body -->
+              <div class="modal-body">
+              Team Fortress 2 has several comics depicting the lives of the mercenaries that you play as in the game. The comics depict the mercs' search for australium, a made up element that contains the secret to immortality, and can only be found in Australia. One of the mercenariesm, called Soldier, canonically prefers to fight nude and covered in honey. The comics are insane, and I highly reccomend you read them. They're all free on the Team Fortress website!
+              </div>
+
+              <!-- modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+        </div>
+    </div>
 	
 </body>

@@ -1,3 +1,4 @@
+/*base stuff*/
 h2{
 	text-align: center;
 	font-family: "Courier New";
@@ -11,36 +12,28 @@ h2{
 	background: #ff9a00;
 }
 
-h5{
-	text-align: center;
-	font-family: "Courier New";
-	font-size: 5px;
-	border: 2px solid black;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-right: auto;
-	margin-left: auto;
-	width: 95%;
-	padding: 10px;
-	background: #ff9a00;
-}
 
 p{
 	text-align: left;
 	border: 1px solid black;
 	font-family: "Courier New";
 	margin: 20px;
-	background: #00a2ff;
-	padding: 10px;
+	padding: 30px;
 }
 
-.imgborder{
-	width: 50%;
+/*link stuff*/
+a:link{
+    color: black;
 }
 
+a:visited{
+    color: purple;
+}
+
+/*img related stuff*/
 .imgcredits{
 	text-align: center;
-	background: none;
+	background: orange;
 	font-size: 12px;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -48,7 +41,6 @@ p{
 	margin-right: auto;
 	width: 25%;
 }
-
 
 img{
 	border: 2px solid black;
@@ -60,17 +52,22 @@ img{
 }
 
 #gladospic{
-	width: 75%;
-	height: 75%;
+	width: 50%;
+	height: 50%;
 }
 
 
-	/*page two stuff */
+/*card stuff */
 	
 .card-deck{
-	width: 400px;
+	width: 100%;
+    margin: auto;
 }
 	
+.card-img-top{
+    width:75%;
+    height: 75%;
+}
 	
 .funfact{
 	background: #ff9a00;
