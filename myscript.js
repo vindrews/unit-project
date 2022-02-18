@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#myBtn").click(function(){
-    $("#myModal").modal();
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
   });
 });
