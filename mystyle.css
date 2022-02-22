@@ -12,7 +12,6 @@ h2{
 	background: #ff9a00;
 }
 
-
 p{
 	text-align: left;
 	border: 1px solid black;
@@ -70,6 +69,19 @@ img{
 }
 
 /*card stuff */
+
+button{
+	text-align: center;
+	font-family: "Courier New";
+	border: 2px solid black;
+    width: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	background: #ff9a00;
+}
 	
 .card-deck{
 	width: 100%;
@@ -94,3 +106,6 @@ h4{
 	margin-right: auto;
 }
 
+#valvefact{
+    display: none;
+}
